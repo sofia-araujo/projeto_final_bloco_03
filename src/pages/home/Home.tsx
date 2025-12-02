@@ -1,3 +1,5 @@
+import ModalProduto from "../../components/produtos/modalproduto/ModalProduto";
+
 function Home() {
   return (
     <>
@@ -15,8 +17,8 @@ function Home() {
               Aqui você encontra Medicamentos e Cosméticos!
             </p>
 
-            <div className="bg-indigo-800 text-white px-8 py-4 rounded-lg font-bold cursor-pointer hover:bg-cyan-700 transition">
-              Cadastrar Produto
+            <div>
+              <ModalProduto />
             </div>
           </div>
 

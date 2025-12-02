@@ -6,6 +6,9 @@ import Home from "./pages/home/Home";
 import ListarCategorias from "./components/categorias/listarcategorias/ListarCategorias";
 import FormCategoria from "./components/categorias/formcategoria/FormCategoria";
 import DeletarCategoria from "./components/categorias/deletarcategoria/DeletarCategoria";
+import FormProduto from "./components/produtos/formproduto/FormProduto";
+import ListarProdutos from "./components/produtos/listarprodutos/ListarProdutos";
+import DeletarProduto from "./components/produtos/deletarproduto/DeletarProduto";
 
 type MenuState = 'closed' | 'open';
 
@@ -40,6 +43,10 @@ function App() {
               <Route path="/cadastrarcategoria" element={<FormCategoria />} />
               <Route path="/editarcategoria/:id" element={<FormCategoria />} />
               <Route path="/deletarcategoria/:id" element={<DeletarCategoria />} />
+              <Route path="/produtos" element={<ListarProdutos />} />
+              <Route path="/cadproduto" element={<FormProduto />} />
+              <Route path="/editarproduto/:id" element={<FormProduto />} />
+              <Route path="/deletarproduto/:id" element={<DeletarProduto />} />
         </Routes>
       </div>
       <Footer/>
