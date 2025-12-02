@@ -13,11 +13,11 @@ function CardCategorias({categoria}: Readonly<CardCategoriaProps>) {
             <p className='p-8 text-3xl bg-white h-full'>{categoria.nome}</p>
             <div className="flex">
                 <Link to={`/editarcategoria/${categoria.id}`}
-                    className='w-full text-slate-100 bg-indigo-800 hover:bg-teal-700 
+                    className='w-full text-slate-100 bg-indigo-800 
                         flex items-center justify-center py-2 '>
                     <PencilIcon
                     size={24}
-                    className="mr-1 hover:fill-teal-800"
+                    className="mr-1 hover:fill-teal-400"
                     />
                 </Link>
 

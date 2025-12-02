@@ -13,7 +13,7 @@ function CardProdutos({ produto }: Readonly<CardProdutoProps>) {
 				<Link to={`/editarproduto/${produto.id}`}>
 					<PencilIcon
 						size={24}
-						className="mr-1 hover:fill-teal-800"
+						className="mr-1 hover:fill-teal-400"
 					/>
 				</Link>
 
