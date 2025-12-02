@@ -78,7 +78,7 @@ function Navbar({ menuState, onMenuToggle, onMenuClose }: Readonly<NavbarProps>)
                     {/* Menu de navegação desktop/tablet */}
                     <div className='items-center hidden gap-4 py-4 md:flex'>
                         <Link to='/categorias' className='hover:underline'>Categorias</Link>
-                        <Link to='/cadcategoria' className='hover:underline'>Cadastrar Categoria</Link>
+                        <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                         <UserIcon size={32} weight='bold' />
                         <ShoppingCartIcon size={32} weight='bold' />
                     </div>
